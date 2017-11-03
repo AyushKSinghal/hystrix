@@ -19,9 +19,9 @@ public class CircuitBreakerClient {
 
     private static String callFailService() throws Exception {
         // TODO use Hystrix command here
-        //return new RemoteServiceCircuitBreakingCommand(SERVICE_PATH).execute();
+        return new RemoteServiceCircuitBreakingCommand(SERVICE_PATH).execute();
         //return RestClient.operation(SERVICE_PATH);
-        throw new RuntimeException("Implement RemoteServiceTimeoutCommand as done in previous modules");
+        //throw new RuntimeException("Implement RemoteServiceTimeoutCommand as done in previous modules");
     }
 
     public static void main(String[] args) throws Exception {

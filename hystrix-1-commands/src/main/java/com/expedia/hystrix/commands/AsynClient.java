@@ -14,7 +14,7 @@ public class AsynClient {
 
     private static Future<String> callRemoteServiceAsynchronously() throws Exception {
         // TODO execute Hystrix command asynchronously here
-        return null;
+        return new RemoteServiceCommand("World").queue();
     }
 
     public static void main(String[] args) {

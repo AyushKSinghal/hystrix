@@ -15,7 +15,7 @@ public class SyncClient {
     private static String callRemoteService() throws Exception {
         //return new RemoteServiceCommand("remoteCall").execute();
         // TODO execute Hystrix command synchronously here
-        return RemoteService.operation();
+        return new RemoteServiceCommand("World").execute();
     }
 
     public static void main(String[] args) {

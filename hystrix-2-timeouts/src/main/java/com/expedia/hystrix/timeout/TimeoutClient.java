@@ -35,9 +35,9 @@ public class TimeoutClient {
 
     private static String callTimeoutService() throws Exception {
         // TODO use Hystrix command here
-        //return new RemoteServiceTimeoutCommand(SERVICE_PATH).execute();
+        return new RemoteServiceTimeoutCommand(SERVICE_PATH).execute();
         //return RestClient.operation(SERVICE_PATH);
-        throw new RuntimeException("Implement RemoteServiceTimeoutCommand as done in module 1");
+        //throw new RuntimeException("Implement RemoteServiceTimeoutCommand as done in module 1");
     }
 
     public static void main(String[] args) {

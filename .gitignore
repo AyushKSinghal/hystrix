@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+~$globalCloudxTech_hystrix.pptx
+hystrix-1-commands/build/
+hystrix-2-timeouts/build/
+hystrix-servers/build/
+hystrix-3-circuitbreaker/build/

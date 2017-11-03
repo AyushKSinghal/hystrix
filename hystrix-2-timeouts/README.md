@@ -1,7 +1,7 @@
 Hystrix timeout
 ===============
 
-1. Open module hystrix-servers and familiarize with [CrankyService](https://ewegithub.sb.karmalab.net/mmaheshwari/hystrix-workshop/blob/master/hystrix-servers/src/main/java/com/expedia/servers/CrankyService.java)
+1. Open module hystrix-servers and familiarize with [CrankyService](https://github.com/AyushKSinghal/hystrix/blob/master/hystrix-servers/src/main/java/com/expedia/servers/CrankyService.java)
 
 2. Run ServersApplication springboot application
 

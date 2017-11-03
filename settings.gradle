@@ -1,0 +1,6 @@
+rootProject.name = 'hystrix-workshop'
+include 'hystrix-1-commands'
+include 'hystrix-2-timeouts'
+include 'hystrix-3-circuitbreaker'
+include 'hystrix-servers'
+
